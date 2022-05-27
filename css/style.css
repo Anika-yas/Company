@@ -795,6 +795,10 @@ body {
           flex: 0 1 39.63%;
 }
 
+.family-growing__picture picture {
+  width: 100%;
+}
+
 .family-growing__main-img {
   width: 100%;
   -o-object-fit: cover;
