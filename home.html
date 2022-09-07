@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220527090517">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220907165649">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,6 +85,9 @@
 				</div>
 			</div>
 		</header>
+
+
+
 		<main class="about-us">
 			<div class="about-us__container">
 				<div class="about-us__title">About Us</div>
@@ -250,10 +253,12 @@
 							</div>
 						</form>
 					</div>
-					<div class="footer__info">
-						<div class="footer__box">
-							<div class="footer__main-title">Information</div>
-							<nav class="footer__navigation">
+
+
+					<div data-spollers="1234,max" data-one-spoller class="footer__info spollers">
+						<div class="footer__box spollers__item">
+							<button data-spoller-close type="button" data-spoller class="footer__main-title spollers__title">Information</button>
+							<nav class="footer__navigation spollers__body">
 								<ul class="footer__list">
 									<li class="footer__item"><a href="#" class="footer__link"> About Us</a></li>
 									<li class="footer__item"><a href="#" class="footer__link"> About Zip</a></li>
@@ -267,9 +272,9 @@
 								</ul>
 							</nav>
 						</div>
-						<div class="footer__box">
-							<div class="footer__main-title">PC Parts</div>
-							<nav class="footer__navigation">
+						<div class="footer__box spollers__item">
+							<button data-spoller-close type="button" data-spoller class="footer__main-title spollers__title">PC Parts</button>
+							<nav class="footer__navigation spollers__body">
 								<ul class="footer__list">
 									<li class="footer__item"><a href="#" class="footer__link"> CPUS</a></li>
 									<li class="footer__item"><a href="#" class="footer__link"> Add On Cards</a></li>
@@ -284,9 +289,9 @@
 								</ul>
 							</nav>
 						</div>
-						<div class="footer__box">
-							<div class="footer__main-title">Desktop PCs</div>
-							<nav class="footer__navigation">
+						<div class="footer__box spollers__item">
+							<button data-spoller-close type="button" data-spoller class="footer__main-title spollers__title">Desktop PCs</button>
+							<nav class="footer__navigation spollers__body">
 								<ul class="footer__list">
 									<li class="footer__item"><a href="#" class="footer__link"> Custom PCs</a></li>
 									<li class="footer__item"><a href="#" class="footer__link">Servers </a></li>
@@ -297,9 +302,9 @@
 								</ul>
 							</nav>
 						</div>
-						<div class="footer__box">
-							<div class="footer__main-title">Laptops</div>
-							<nav class="footer__navigation">
+						<div class="footer__box spollers__item">
+							<button data-spoller-close type="button" data-spoller class="footer__main-title spollers__title">Laptops</button>
+							<nav class="footer__navigation spollers__body">
 								<ul class="footer__list">
 									<li class="footer__item"><a href="#" class="footer__link">Evryday Use Notebooks </a></li>
 									<li class="footer__item"><a href="#" class="footer__link">MSI Workstation Series </a></li>
@@ -310,9 +315,9 @@
 								</ul>
 							</nav>
 						</div>
-						<div class="footer__box">
-							<div class="footer__main-title">Address</div>
-							<nav class="footer__navigation">
+						<div class="footer__box spollers__item">
+							<button data-spoller-close type="button" data-spoller class="footer__main-title spollers__title">Address</button>
+							<nav class="footer__navigation spollers__body">
 								<ul class="footer__list">
 									<li class="footer__item"><a href="#" class="footer__link"> Address: 1234 Street Adress City Address, 1234</a></li>
 									<li class="footer__item"><a href="tel:0012345678" class="footer__link">Phones: (00) 1234 5678s</a></li>
@@ -341,9 +346,11 @@
 				</div>
 			</div>
 		</footer>
+
+
 	</div>
 
-	<script src="js/app.min.js?_v=20220527090517"></script>
+	<script src="js/app.min.js?_v=20220907165649"></script>
 </body>
 
 </html>
